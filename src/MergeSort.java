@@ -50,6 +50,5 @@ public class MergeSort implements Sorting<Integer> {
         slice(numbers, start, middle);
         slice(numbers, middle+1, end);
         merge(numbers, start, middle, end);
-
     }
 }
