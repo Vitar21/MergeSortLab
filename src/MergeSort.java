@@ -4,9 +4,6 @@ import java.util.List;
 public class MergeSort implements Sorting<Integer> {
     @Override
     public void sort(List<Integer> numbers){
-        if ( numbers == null || numbers.isEmpty()){
-            return;
-        }
         slice(numbers, 0, numbers.size() - 1);
     }
 
